@@ -1,0 +1,5 @@
+Copyright (c) 2024, Colin Melendez (colinmelendezwr@g.ucla.edu),
+Copyright (c) 2011 Canonical Ltd.
+
+This Font Software is licensed under the Ubuntu Font Licence, Version
+1.0.  https://launchpad.net/ubuntu-font-licence
