@@ -2,9 +2,7 @@
 
 **Flatworm** is a monospace font for coding, focused on scannability, compactness, legibility at small sizes, and a limited set of non-intrusive ligatures.
 
-![image](https://github.com/user-attachments/assets/a5a7726b-427e-4a5b-8bb7-062823340992)
-
-![image](https://github.com/user-attachments/assets/33738dbf-7fd5-472b-b2ad-c2d3458573d0)
+![image](https://github.com/user-attachments/assets/f21e2ab4-408e-481e-b088-f45f000edc57)
 
 The base of this font was adapted from the Ubuntu Mono font, but it takes inspiration and good ideas from Mononoki, Menlo, and Geist as well to create a font that is highly readable but familiar.
 
