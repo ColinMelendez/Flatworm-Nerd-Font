@@ -90,3 +90,5 @@ render_diff.sh UbuntuMono.ttf Flatworm_NF_mono.ttf sample.txt
 ```
 
 *note that the render process does not account for ligatures - only raw glyphs
+
+Reference for the Licensing rules for the font license: https://ubuntu.com/legal/font-licence
