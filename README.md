@@ -52,7 +52,7 @@ Notable Features:
 
 Example:
 
-![Example Image](https://github.com/user-attachments/assets/e7d8c9fb-030b-42e9-ae5d-72f015018f3d)
+![image](https://github.com/user-attachments/assets/56e2d6e5-0fe5-4e99-9941-c711cc2224c6)
 
 per glyph diff from Ubuntu Mono:
 
