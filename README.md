@@ -20,11 +20,11 @@ Notable Features:
 
 - Primarily sans-serif
 
-- angular uppercase and rounded lowercase letters
+- Angular uppercase and rounded lowercase letters
 
 - Nerd Font Symbols package
 
-- Big round parenthesis (the point of negative space in their center helps to visually break dense text at meaningful points in code, and prevents them from blending in with other characters)
+- Big round parenthesis (my favorites)
 
 - Curvy curly braces (clearer at small sizes and lower relative resolutions)
 
@@ -43,8 +43,6 @@ Notable Features:
 - Serifs on i, j, t, and l glyphs
 
 - Slashed zeroes
-
-- Tall ascender on lowercase L
 
 - elevated middle hump on lowercase M
 
