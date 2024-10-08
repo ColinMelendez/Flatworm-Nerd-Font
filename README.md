@@ -44,7 +44,7 @@ Notable Features:
 
 - Slashed zeroes
 
-- elevated middle hump on lowercase M
+- Elevated middle hump on lowercase M
 
 ---
 
