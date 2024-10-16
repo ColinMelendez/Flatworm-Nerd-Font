@@ -12,7 +12,9 @@ The philosophy behind developing the ligatures was that these symbols can make a
 
 #### Notable Features:
 
-- Highly legible at small font sizes (great for fitting lots of code on-screen at once) or long viewing distances (useful for showing others your code).
+- Highly legible at small font sizes (great for fitting lots of code on-screen at once) or long viewing distances (useful for showing others your code)
+
+- Small glyphs relative to font point (you may wish to increase your font size for comfort)
 
 - Horizontally compact column width
 
