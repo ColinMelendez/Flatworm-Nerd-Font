@@ -6,9 +6,11 @@
 
 The base of this font was adapted from the Ubuntu Mono font, but it takes inspiration and good ideas from Mononoki, Menlo, and Geist as well to create a font that is highly readable but familiar.
 
-The evolution that this font represents is largely in it's symbols, as well as in some impactful changes to some of the letters and spacings to increase their distinctiveness at small sizes or reduce the extent to which they cause visual breakup in words. This font also adds precisely three ligatures for the common types of "arrow" symbols that used in many languages. The philosophy being that these symbols can make a codebase look less needlessly noisy when these symbols are used - allowing the eye to be drawn more naturally to the information around them. More extensive ligature support, however, tends to make code less clear and more cumbersome to read. One of the motivations for designing this font in the first place was to create a font with support for only the simple arrow ligatures, and nothing more.
+The evolution that this font represents is largely in its symbols, as well as in some impactful changes to some of the letters and spacings to increase their distinctiveness at small sizes or reduce the extent to which they cause visual breakup in words. This font also adds precisely three ligatures for the common types of "arrow" symbols that used in many languages. 
 
-Notable Features:
+The philosophy behind developing the ligatures was that these symbols can make a codebase look less needlessly noisy when they are used - allowing the eye to be drawn more naturally to the information around them - and enhance the visual semantics of the code.  The arrow ligatures formed from `->` `=>` and `<-` can also be designed such that it is not unclear what symbols they are composed of. More extensive ligature support, however, tends to make code less clear and more cumbersome to read, as glyphs like those of `=`, `==`, `===`, and many others can be frustratingly similar at a glance when too many ligatures are introduced. One of the motivations for this project in the first place was to create a font with support for only the core arrow ligatures, and nothing more. It is ultimately a matter of taste, but I an very happy with the balance struck by this font, and I think that you will be as well.
+
+#### Notable Features:
 
 - Highly legible at small font sizes (great for fitting lots of code on-screen at once) or long viewing distances (useful for showing others your code).
 
@@ -24,13 +26,13 @@ Notable Features:
 
 - Nerd Font Symbols package
 
-- Big round parenthesis (my favorites)
+- Big round parenthesis (my personal favorite)
 
 - Curvy curly braces (clearer at small sizes and lower relative resolutions)
 
 - Braces and parenthesis are of uniform height
 
-- Tall open angle brackets
+- Tall open angle-brackets
 
 - Vertically elevated asterisk and circumflex
 
@@ -90,3 +92,7 @@ render_diff.sh UbuntuMono.ttf Flatworm_NF_mono.ttf sample.txt
 *note that the render process does not account for ligatures - only raw glyphs
 
 Reference for the Licensing rules for the font license: https://ubuntu.com/legal/font-licence
+
+## Other
+
+If you'd like to read a compelling case *against* ligatures in programming fonts, take a look at this [concise argument by Matthew Butterick](https://practicaltypography.com/ligatures-in-programming-fonts-hell-no.html). Of course, my hubris has led me to believe that I can do it anyway, but I am not unaware of the criticism and consider my attempt here to be more in-dialog with the idea than opposed to it.
