@@ -4,11 +4,11 @@
 
 ![image](https://github.com/user-attachments/assets/f21e2ab4-408e-481e-b088-f45f000edc57)
 
-The base of this font was adapted from the Ubuntu Mono font, but it takes inspiration and good ideas from Mononoki, Menlo, and Geist as well to create a font that is highly readable but familiar.
+The base of this font was adapted from the Ubuntu Mono font, but it also draws inspiration and good ideas from Mononoki, Meslo, and Geist to create a font that is both highly readable and familiar.
 
-The evolution that this font represents is largely in its symbols, as well as in some impactful changes to some of the letters and spacings to increase their distinctiveness at small sizes or reduce the extent to which they cause visual breakup in words. This font also adds precisely three ligatures for the common types of "arrow" symbols that used in many languages. 
+The evolution represented by this font is mainly evident in its symbols, as well as in some impactful changes to certain letters and spacing, which aim to increase their distinctiveness at small sizes or reduce the extent to which they cause visual disruption in words. This font also adds precisely three ligatures for the common types of "arrow" symbols that are used in many languages. 
 
-The philosophy behind developing the ligatures was that these symbols can make a codebase look less needlessly noisy when they are used - allowing the eye to be drawn more naturally to the information around them - and enhance the visual semantics of the code.  The arrow ligatures formed from `->` `=>` and `<-` can also be designed such that it is not unclear what symbols they are composed of. More extensive ligature support, however, tends to make code less clear and more cumbersome to read, as glyphs like those of `=`, `==`, `===`, and many others can be frustratingly similar at a glance when too many ligatures are introduced. One of the motivations for this project in the first place was to create a font with support for only the core arrow ligatures, and nothing more. It is ultimately a matter of taste, but I an very happy with the balance struck by this font, and I think that you will be as well.
+The philosophy behind developing the ligatures was that they make a codebase look less cluttered when used, allowing the eye to be drawn more naturally to the surrounding information, thereby enhancing the visual semantics of the code.  The arrow ligatures formed from `->` `=>` and `<-` can also be designed such that it is not unclear what symbols they are composed of. More extensive ligature support, however, tends to make code less clear and more cumbersome to read, as glyphs like those of `=`, `==`, `===`, and many others can be frustratingly similar at a glance when too many ligatures are introduced. One of the motivations for this project was to create a font that supports only the core arrow ligatures, and nothing more. It is ultimately a matter of taste, but I am very pleased with the balance achieved by this font, and I think you will be as well.
 
 #### Notable Features:
 
@@ -28,11 +28,11 @@ The philosophy behind developing the ligatures was that these symbols can make a
 
 - Nerd Font Symbols package
 
-- Big round parenthesis (my personal favorite)
+- Big round parentheses (my personal favorite)
 
 - Curvy curly braces (clearer at small sizes and lower relative resolutions)
 
-- Braces and parenthesis are of uniform height
+- Braces and parentheses are of uniform height
 
 - Tall open angle-brackets
 
@@ -56,13 +56,9 @@ Example:
 
 ![image](https://github.com/user-attachments/assets/56e2d6e5-0fe5-4e99-9941-c711cc2224c6)
 
-per glyph diff from Ubuntu Mono:
-
-![image](https://github.com/user-attachments/assets/230e0b8b-b060-410f-ba5c-d549d0378b11)
-
 ## Installation
 
-Download the Flatworm_NF_mono.otf file for the font and add it to your system's fonts, which will be different depending on your OS.
+Download the Flatworm_NF_mono.otf file for the font and add it to your system's font directory, which will vary depending on your operating system.
 
 - for most Linux distros, add the installed font to your `~/.local/share/fonts` directory, and then update the font cache by running `fc-cache -fv`
 
@@ -78,7 +74,7 @@ To modify and extend the font yourself, you can clone the repo and open flatworm
 
 ---
 
-NOTE: To generate your own diff images with the render_diffs.sh script, you will need to have imagemagick installed.
+NOTE: To generate your own diff images with the `render_diffs.sh` script, you will need to have ImageMagick installed.
 
 Once you have that, you can generate a diff image between any two fonts on some sample text by running:
 
@@ -87,13 +83,14 @@ render_diff.sh <font_file_A> <font_file_B> <sample_text_file>
 ```
 
 for example:
+
 ```sh
-render_diff.sh UbuntuMono.ttf Flatworm_NF_mono.ttf sample.txt
+render_diff.sh ExampleFont.ttf Flatworm_NF_mono.ttf sample.txt
 ```
 
 *note that the render process does not account for ligatures - only raw glyphs
 
-Reference for the Licensing rules for the font license: https://ubuntu.com/legal/font-licence
+Reference for the font license: [ubuntu.com/legal/font-license](https://ubuntu.com/legal/font-licence)
 
 ## Other
 
